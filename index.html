@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/main.css">
+    <title>MyProject</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <ul class="navbar">
+                <li id="signIn-style" class="navItem"> Hi! <a href="#"> Sign in </a> or <a href="#">register</a></li>
+                <li class="navItem"><a href="#">Daily Deals</a></li>
+                <li class="navItem"><a href="#">Sell</a></li>
+                <li class="navItem no-border"><a href="#">Help & Contact</a></li>
+                
+                <li id="cart" class="navItem float-right no-border"><img src="img/cart.svg" alt="cart" title="您的購物車" width="20px" height="20px"></li>
+                <li id="alert" class="navItem float-right no-border"><img src="img/alert.png" alt="alert" width="20px"></li>
+                <li class="navItem float-right no-border">My eBay</li>
+            </ul>
+        </div>
+    </header>
+
+    <div id="search-bar" class="clearfix setBGColor">
+        <div class="container">
+            <img id="brand" src="img/brand.jpg" alt="ebay" height="55px">
+            <button id="shopping-button"type="button">
+                <p>shop by category</p>
+                <img id="arrow" src="img/arrow.PNG" alt="arrow" width="20px">
+            </button>
+            <form id="search-form">
+                <table>
+                    <tr>
+                        <td>
+                            <input id=search-field class="text-field" type="text" name="search-content" placeholder="Search for anything">
+                        </td>
+                        <td>
+                            <div id="category-textfield" class="text-field">
+                                <select class="options" name="cate">
+                                    <option selected="selected" value="0">Antiques</option>
+                                    <option value="1">Art</option>
+                                    <option value="2">Baby</option>
+                                    <option value="3">Books</option>
+                                    <option value="4">Business &amp; Accessories</option>
+                                </select>
+                            </div>
+                        </td>
+                        <td>
+                            <input class="btn-primary" type="submit" value="Search">
+                        </td>
+                        <td>
+                            <a href="#" title="進階搜索" id=advaced-button>Advanced</a>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
+    <nav class="clearfix setBGColor">
+        <div class="container">
+            <ul id="navigation-bar" class="navbar">
+                <li class="navItem"><a href="#">Home</a></li>
+                <li class="navItem"><a href="#">Saved</a></li>
+                <li class="navItem"><a href="#">Electronics</a></li>
+                <li class="navItem"><a href="#">Fashion</a></li>
+                <li class="navItem"><a href="#">Health & Beauty</a></li>
+                <li class="navItem"><a href="#">Motors</a></li>
+                <li class="navItem"><a href="#">Collectibles</a></li>
+                <li class="navItem"><a href="#">Sports</a></li>
+                <li class="navItem"><a href="#">Home&Garden</a></li>
+                <li class="navItem"><a href="#">Deals</a></li>
+                <li class="navItem"><a href="#">Under$10</a></li>
+            </ul>
+        </div>
+    </nav>
+</body>
+</html>
